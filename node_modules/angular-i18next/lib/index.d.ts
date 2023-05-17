@@ -1,0 +1,33 @@
+import { ModuleWithProviders } from '@angular/core';
+import { FormatFunction } from 'i18next';
+import { I18NextModuleParams } from './I18NextModuleParams';
+import { ITranslationService } from './ITranslationService';
+import * as i0 from "@angular/core";
+import * as i1 from "./I18NextPipe";
+import * as i2 from "./I18NextCapPipe";
+import * as i3 from "./I18NextFormatPipe";
+import * as i4 from "./I18NextEagerPipe";
+export * from './I18NextCapPipe';
+export * from './I18NextEagerPipe';
+export * from './I18NextErrorHandlingStrategies';
+export * from './I18NextFormatPipe';
+export * from './I18NextLoadResult';
+export * from './I18NextModuleParams';
+export * from './I18NextPipe';
+export * from './I18NextService';
+export * from './I18NextTitle';
+export * from './I18NEXT_TOKENS';
+export * from './ITranslationEvents';
+export * from './ITranslationService';
+export * from './I18NextEvents';
+export * from './models';
+export declare function resolver(activatedRouteSnapshot: any, routerStateSnapshot: any): Promise<void>;
+export declare function i18nextNamespaceResolverFactory(i18next: ITranslationService): typeof resolver;
+export declare class I18NextModule {
+    static forRoot(params?: I18NextModuleParams): ModuleWithProviders<I18NextModule>;
+    static interpolationFormat(customFormat?: Function | null): FormatFunction;
+    static ɵfac: i0.ɵɵFactoryDeclaration<I18NextModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<I18NextModule, [typeof i1.I18NextPipe, typeof i2.I18NextCapPipe, typeof i3.I18NextFormatPipe, typeof i4.I18NextEagerPipe], never, [typeof i1.I18NextPipe, typeof i2.I18NextCapPipe, typeof i3.I18NextFormatPipe, typeof i4.I18NextEagerPipe]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<I18NextModule>;
+}
+export declare function defaultInterpolationFormat(value: any, format?: string, lng?: string): string;
