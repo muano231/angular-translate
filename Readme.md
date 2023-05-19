@@ -42,3 +42,11 @@ rename option whitelist to supportedLngs : https://www.i18next.com/misc/migratio
 
 https://locize.com/blog/angular-i18next/
 https://phrase.com/blog/posts/angular-l10n-with-i18next/
+
+## imports
+
+json reader
+
+
+"resolveJsonModule": true,
+"esModuleInterop": true,

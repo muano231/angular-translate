@@ -1,3 +1,4 @@
 {
-    "welcome": "Willkommen"
+    "welcome": "Willkommen zu Deiner Angular App",
+    "descr": "Eine Anleitung und Rezepte für das Konfigurieren / Anpassen dieses Projekts findest du in {{-url}}."
 }

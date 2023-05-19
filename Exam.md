@@ -13,6 +13,7 @@ Permettez à l'utilisateur de changer la langue de l'interface utilisateur à l'
 => good
 
 Ajoutez des fichiers de traduction pour les erreurs courantes, telles que les erreurs de validation de formulaire, et affichez les messages d'erreur traduits dans l'interface utilisateur.
+=> good
 
 Utilisez des directives de texte pour gérer le texte qui doit être traduit à partir du HTML, des balises d'attributs ou d'autres balises personnalisées.
 
