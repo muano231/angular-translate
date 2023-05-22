@@ -4,12 +4,12 @@ import { BrowserModule, Title } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { I18NEXT_SERVICE, I18NextModule, I18NextTitle, ITranslationService, defaultInterpolationFormat } from 'angular-i18next';
+import { I18NEXT_SERVICE, I18NextModule, ITranslationService, defaultInterpolationFormat } from 'angular-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from '../assets/locales/en.translations.json'
 import translationDE from '../assets/locales/de.translations.json'
 import translationFR from '../assets/locales/fr.translations.json';
-import { TranslateDirective } from './translate.directive'
+import { TranslateDirective } from './directives/translate.directive'
 
 export function appInit(i18next: ITranslationService) {
   return () => i18next
@@ -21,6 +21,7 @@ export function appInit(i18next: ITranslationService) {
       returnEmptyString: false,
       saveMissing: true,
       resources: {
+        // vient associer translation avec le fichier de traduction importé par langue
         en: {
             translation: translationEN
         },

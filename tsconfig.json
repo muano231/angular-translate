@@ -21,6 +21,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "useDefineForClassFields": false,
+    "strictPropertyInitialization": false,
     "lib": [
       "ES2022",
       "dom"

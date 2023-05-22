@@ -1,4 +1,5 @@
 {
+    "title": "Willkommen",
     "welcome": "Willkommen zu Deiner Angular App",
-    "descr": "Eine Anleitung und Rezepte für das Konfigurieren / Anpassen dieses Projekts findest du in {{-url}}."
+    "descr": "Eine Anleitung und Rezepte für das Konfigurieren / Anpassen dieses Projekts findest du in https://github.com/Romanchuk/angular-i18next."
 }
